@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SPRV2.loader.js";
+      var loaderUrl = buildUrl + "/SPRV3.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SPRV2.data",
-        frameworkUrl: buildUrl + "/SPRV2.framework.js",
-        codeUrl: buildUrl + "/SPRV2.wasm",
+        dataUrl: buildUrl + "/SPRV3.data",
+        frameworkUrl: buildUrl + "/SPRV3.framework.js",
+        codeUrl: buildUrl + "/SPRV3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Samolov Group",
         productName: "SPR",
@@ -89,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        unityShowBanner('Загрузка');
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
